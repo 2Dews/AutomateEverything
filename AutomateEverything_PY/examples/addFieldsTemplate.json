@@ -1,0 +1,52 @@
+{
+    "stringfields": {
+        "fields": [
+            {
+                "anyname": {
+                    "length": 2,
+                    "fieldnames": [
+                        "test1",
+                        "test2"
+                    ],
+                    "fieldalias": [
+                        "test 1",
+                        "test 2"
+                    ]
+                }
+            }
+        ]
+    },
+  "doublefields": {
+    "fieldnames": [
+      "test5",
+      "test6"
+    ],
+    "fieldalias": [
+      "test5",
+      "test6"
+    ]
+  },
+   "floatfields": {
+        "fieldnames": [],
+        "fieldalias": []
+    },
+    "longfields": {
+        "fieldnames": [
+            "test7",
+            "test8"
+        ],
+        "fieldalias": []
+    },
+    "datefields": {
+        "fieldnames": [],
+        "fieldalias": []
+    },
+    "shortfields": {
+        "fieldnames": [],
+        "fieldalias": []
+    },
+    "guidfields": {
+        "fieldnames": [],
+        "fieldalias": []
+    }
+}

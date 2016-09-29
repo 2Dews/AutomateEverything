@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f5ff4673-9338-460a-93cd-3006ec25617a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AutomateEverything_PY.py</StartupFile>
+    <StartupFile>scripts\addfields.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,27 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AutomateEverything_PY.py" />
+    <Compile Include="scripts\addfields.py" />
+    <Compile Include="scripts\pds_utilities.py" />
+    <Compile Include="scripts\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\addfieldstest.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="examples\" />
+    <Folder Include="tools\" />
+    <Folder Include="tests\" />
+    <Folder Include="scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="examples\addFieldsTemplate.json" />
+    <Content Include="examples\exampleFields.json" />
+    <Content Include="tools\Automation Tools.pyt" />
+    <Content Include="tools\Automation Tools.pyt.xml" />
+    <Content Include="tools\Automation Tools.Tool.pyt.xml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
