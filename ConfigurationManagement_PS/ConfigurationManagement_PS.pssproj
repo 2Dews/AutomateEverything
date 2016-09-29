@@ -31,7 +31,7 @@
     <Folder Include="scripts\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="scripts\AddGroupsFromTable.ps1" />
+    <Compile Include="scripts\AddGroupsFromSqlTable.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
